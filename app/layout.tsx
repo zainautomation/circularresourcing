@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Circular Resourcing | Renewable Energy Recruitment",
     description: "The bridge to top talent in renewable energy.",
     type: "website",
-    images: ["/media/hero-poster.jpg"],
+    images: ["/media/solar-field.jpg"],
   },
 };
 

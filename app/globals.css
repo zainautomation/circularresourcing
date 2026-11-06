@@ -88,6 +88,16 @@ select.input { appearance: none; background-image: linear-gradient(45deg, transp
 @keyframes scrollcue { 0% { transform: translateY(-100%); } 100% { transform: translateY(200%); } }
 .animate-scrollcue { animation: scrollcue 2.2s var(--ease-out-expo) infinite; }
 
+/* Hero: light streaks travelling along the solar rows (paths use pathLength=100) */
+@keyframes flow { from { stroke-dashoffset: 26; } to { stroke-dashoffset: -100; } }
+.flow {
+  fill: none;
+  stroke-linecap: round;
+  stroke-dasharray: 26 200;
+  stroke-dashoffset: 26;
+  animation: flow var(--d, 4.5s) cubic-bezier(0.45, 0, 0.25, 1) var(--delay, 0s) infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

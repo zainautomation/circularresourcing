@@ -21,7 +21,7 @@ npm run build && npm start
 | `app/` | Pages: home, about, services, jobs (+ detail), employers, job-seekers, contact, insights (+ articles), privacy |
 | `components/` | UI and interactive pieces (hero video, sector panels, discipline list, cost calculator, job board, role matcher, multi-step forms) |
 | `app/api/submit/route.ts` | One endpoint for every form; validates, then logs |
-| `public/media/` | Hero video (1080p + mobile) and photography |
+| `public/media/` | Photography (hero is a still with CSS-animated light lines) |
 
 ## Before launch
 
@@ -33,5 +33,5 @@ npm run build && npm start
 
 ## Image credits
 
-- Hero video and the solar, engineer and team photos come from circularresourcing.com.
+- The hero still (taken from the original hero video) and the solar, engineer and team photos come from circularresourcing.com.
 - All other photos are from [Pexels](https://www.pexels.com) under the Pexels licence (free for commercial use, no attribution required).
